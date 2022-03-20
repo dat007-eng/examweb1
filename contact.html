@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My contact page</title>
+    </head>
+    <body>
+        <table border = "1" align="center" width ="50%">
+            <tr><th><h1>Contact</h1></th></tr>
+        </table>
+       
+        <form class="form-row" class="form-label" class=" form-field" method="post" action="contact.html" >
+            <div class="form-row">
+                <div class="form-label">
+                    <label for ="purpose"> Purpose of contact</label>
+                </div>
+                <div class="form-field">
+                    <select id ="purpose" name="purpose">
+                        <option value="business">Business</option>
+                        <option value="personal">Personal</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-label">
+                <label for="name">Your name</label>
+                </div>
+                <div class="form-field">
+                <input required id="name" type="text" name="name" maxlength="50">
+            </div>
+            </div>
+            <div class="form-row">
+                <div class="form-label">
+                    <label for="email">Your email address</label>
+                </div> 
+                <div class="form-field">
+                    <input required id="email" type="email" name="email">                   
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-label">
+                    <label for="message">Your message</label>
+                </div>
+                <div class="form-field">
+                    <textarea cols="40" rows="10" required id="message" name="message"></textarea>
+                </div>
+            </div>
+                <button type="submit" >Send</button>
+        </form>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href= "projects.html">Go to project page</a></li>
+                    <li><a href= "cv.html">Go to cv page</a></li>
+                    <li><a href= "blog.html">Go to Blog page</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
